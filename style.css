@@ -1,1 +1,26 @@
+nav {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdfdfd;
+}
+
+.logoIm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.Logo {
+  width: 150px; /* Adjust size */
+  height: 150px; /* Ensure it's a perfect circle */
+  border-radius: 50%; /* Makes it round */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+  object-fit: cover; /* Ensures the image fits nicely */
+}
+
 
