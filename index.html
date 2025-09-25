@@ -1,17 +1,26 @@
 <html>
   <head>
     <nav>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <img src="logo.png" alt="logo" class="Logo">
       <h1>The Weather you Can trust</h1>
     </nav> 
   </head>
   
   <body>
+    <div id="container">
+      <h3>What to know the Weather of favourite City, Search Here!!!</h3>
+      <label for="name">City: </label>
+      <input type="text" name="name" id="name" placeholder="Enter the City"/>
+      <button onClick="getCityWeather()">Search Weather</button>
+      <div id="Results"></div>
+    </div>
     
-    
+    <script src="script.js"></script>
   </body>
   
   <footer>
-    
+    <h2>Thank You</h2>
   </footer>
 </html>
