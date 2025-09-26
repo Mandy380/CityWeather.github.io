@@ -53,8 +53,8 @@ button {
   margin-left: 10px;
 }
 
-.footer {
-  background-color: #f5f5f5; /* Light gray background */
+footer {
+  background-color: #000000; /* Light gray background */
   text-align: center;
   padding: 20px 0;
   position: relative;
@@ -63,7 +63,7 @@ button {
   font-family: Arial, sans-serif;
 }
 
-.footer h2 {
+h2 {
   margin: 0;
   font-size: 20px;
   color: #333;
