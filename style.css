@@ -1,5 +1,5 @@
 .navBar {
-  background-image: linear-gradient(white, lab(43.17% 34.84 -29.37 / 0.795));; 
+  background-image: linear-gradient(white, lab(43.17% 34.84 -29.37 / 0.795));
   padding: 12px 18px;
   display: flex;
   flex-direction: column;   /* stack links + heading vertically */
@@ -57,7 +57,7 @@ footer {
   background-color: #000000;
   text-align: center;
   padding: 20px 0;
-  position: relative;
+  position: fixed;
   bottom: 0;
   width: 100%;
   font-family: Arial, sans-serif;
