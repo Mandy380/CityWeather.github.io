@@ -14,7 +14,8 @@ body {
 
 .navBar {
   background: linear-gradient(to right, #d3cce3, #e9e4f0);
-  padding: 20px;
+  padding: 12px 20px;
+  display: flex;
   align-items: center; 
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
