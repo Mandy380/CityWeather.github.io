@@ -16,7 +16,7 @@ body {
 .navBar {
   background: linear-gradient(to right, #d3cce3, #e9e4f0);
   padding: 12px 18px;
-  display: flex;
+  
   align-items: center; 
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -38,10 +38,11 @@ body {
 }
 
 .heading {
-  margin-top: 14px; /* space between image and heading */
-  font-size: 24px;
+  margin-top: 10px; /* space between image and heading */
+  font-size: 18px;
   text-align: center;
-  color: #333; /* Optional: set text color */
+  color: black; /* Optional: set text color */
+  flex-direction: column;
 }
 
 .container {
