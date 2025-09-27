@@ -13,11 +13,10 @@ body {
 }
 
 .navBar {
-  background-image: linear-gradient(white, lab(43.17% 34.84 -29.37 / 0.795));
-  padding: 12px 18px;
-  display: flex;
-  flex-direction: column;   /* stack links + heading vertically */
+  background: linear-gradient(to right, #d3cce3, #e9e4f0);
+  padding: 20px;
   align-items: center; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .logoIm {
