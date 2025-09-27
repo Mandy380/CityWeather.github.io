@@ -9,10 +9,10 @@ body {
 
 .navBar {
   background: linear-gradient(to right, #d3cce3, #e9e4f0);
-  padding: 12px 18px; 
-  align-items: center; 
+  padding: 12px 18px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   display: flex;
+  align-items: center;
 }
 
 .logoIm {
@@ -20,22 +20,23 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh; 
+  height: 100vh;
 }
 
 .Logo {
-  width: 150px; /* Adjust size */
-  height: 150px; /* Ensure it's a perfect circle */
-  border-radius: 50%; /* Makes it round */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
-  object-fit: cover; /* Ensures the image fits nicely */
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
 }
 
 .heading {
-  margin-top: 10px; /* space between image and heading */
+  margin-top: 10px;
   font-size: 18px;
   text-align: center;
-  color: black; /* Optional: set text color */
+  color: black;
+  display: flex;
   flex-direction: column;
 }
 
@@ -46,10 +47,12 @@ body {
   border-radius: 8px;
   box-shadow: 0 0 10px #aaa;
 }
+
 input {
   padding: 10px;
   width: 200px;
 }
+
 button {
   padding: 10px 15px;
   margin-left: 10px;
