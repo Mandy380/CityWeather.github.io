@@ -1,12 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: Arial, sans-serif;
-  background-color: #eef;
+  background-color: #8de7c0;
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -15,10 +9,10 @@ body {
 
 .navBar {
   background: linear-gradient(to right, #d3cce3, #e9e4f0);
-  padding: 12px 18px;
-  
+  padding: 12px 18px; 
   align-items: center; 
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
 }
 
 .logoIm {
