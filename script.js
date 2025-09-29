@@ -1,11 +1,11 @@
 async function getCityWeather() {
+  const city = document.getElementById('name').value.trim(); // Get and trim input
 
-  const city = document.getElementById('name').value.trim();
   if (!city) {
     document.getElementById('Results').innerHTML = `<p>Please enter a city name.</p>`;
     return;
   }
-  const city = document.getElementById('name').value;
+
   const apiKey = '23311bd3097a594bc9e6c697cbd6df54'; 
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
 
@@ -27,5 +27,6 @@ async function getCityWeather() {
   } catch (error) {
     document.getElementById('Results').innerHTML = `<p>Error fetching weather data.</p>`;
   }
+}
 }
 
