@@ -3,11 +3,15 @@ body {
   background-color: #b8f4eb;
   display: flex;
   flex-direction: column; 
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .navBar {
   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
   background: linear-gradient(to right, #d3cce3, #e9e4f0);
   padding: 12px 18px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
