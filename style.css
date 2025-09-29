@@ -4,17 +4,16 @@ body {
   display: flex;
   flex-direction: column; 
   height: 100vh;
-  margin: 0;
 }
 
 .navBar {
+   position: fixed;
   width: 100%;
   background: linear-gradient(to right, #d3cce3, #e9e4f0);
   padding: 12px 18px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   display: flex;
   align-items: center;
-  position: fixed; /* optional: keep it at the top */
   top: 0;
   left: 0;
 }
