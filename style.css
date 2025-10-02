@@ -64,6 +64,11 @@ button {
   margin-left: 10px;
 }
 
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
 footer {
   background-color: #000000;
   text-align: center;
