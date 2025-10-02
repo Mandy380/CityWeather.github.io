@@ -22,5 +22,5 @@ async function getCityWeather() {
     document.getElementById('Results').innerHTML = `<p>Error fetching weather data.</p>`;
   }
 }
-}
+
 
